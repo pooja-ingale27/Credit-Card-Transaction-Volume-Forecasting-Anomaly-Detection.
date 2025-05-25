@@ -3,7 +3,7 @@
 
 📌 Overview
 
-# # 1. Data Preprocessing
+#1. Data Preprocessing
 
 Dataset: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 
@@ -19,7 +19,7 @@ total_amount: Sum of transaction amounts.
 
 fraud_count: Sum of frauds (Class).
 
-# # 2. Exploratory Data Analysis (EDA)
+2. Exploratory Data Analysis (EDA)
    
 Line plots for total_txns and total_amount.
 
@@ -27,13 +27,13 @@ Time series decomposition attempted (limited insight due to short duration).
 
 Moving averages (3h, 6h) used to smooth trends.
 
-# # 3. Forecasting Models
+3. Forecasting Models
    
 Prophet: Forecasted values without train-test split (short dataset).
 
 ARIMA: Performed stationarity tests, used auto-ARIMA for short-term prediction.
 
-# # 4. Anomaly Detection
+4. Anomaly Detection
 
 Compared predicted vs. actual values.
 
